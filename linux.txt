@@ -5,3 +5,5 @@ ls -ltr >
 uptime -h > 
 free -h > 
 less <Filename> ... then it will open the editor and then search using /<word>  # For looking for an specific word in the file 
+less <Filename> ... then it will open the editor and then search using ?<word>  # For looking for an specific word in the file in reverse order
+touch <filename> # For creating an file
