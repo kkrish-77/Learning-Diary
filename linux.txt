@@ -1,0 +1,5 @@
+ls > Listing object 
+ls -a > Listing all the object including hidden files
+ls -lt > List
+ls -ltr > 
+uptime -h > 
