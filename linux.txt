@@ -7,3 +7,7 @@ free -h >
 less <Filename> ... then it will open the editor and then search using /<word>  # For looking for an specific word in the file 
 less <Filename> ... then it will open the editor and then search using ?<word>  # For looking for an specific word in the file in reverse order
 touch <filename> # For creating an file
+rm <filename> # For deleting an file
+mkdir <directory name> # For creating an directory
+rmdir <directory name> # For deleting an directory
+pwd # Print working directory 
