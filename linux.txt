@@ -11,3 +11,7 @@ rm <filename> # For deleting an file
 mkdir <directory name> # For creating an directory
 rmdir <directory name> # For deleting an directory
 pwd # Print working directory 
+cd # Change directory 
+cd .. # Going back to previous directory
+cd ../.. # Going back x2
+cp <source> <destination> # copy the contents and can also be used for backup of one file to other
