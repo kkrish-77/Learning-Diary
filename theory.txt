@@ -18,3 +18,17 @@ kernal allocates PID , Memory and file descriptor > Program runs > Program exits
 $PATH - List of address where shell can look for 
 fork() - Creates an duplcate process(child) of parent process 
 execve() - Deletes the memory of the child process and then allocates the memory from the bin/ls 
+
+User types "ls"
+   ↓
+Shell calls fork()
+   ↓
+Child process created
+   ↓
+Child calls exec()
+   ↓
+Child becomes "ls"
+   ↓
+ls runs and exits
+   ↓
+Parent shell continues
