@@ -1,0 +1,20 @@
+PHASE 1 - CORE FUNDAMENTALS
+Linux is not an OS but an kernal
+
+User > Shell > Kernal > Hardware
+
+Kernal - Heart of the machine, communicated directly with the Hardware
+Shell - Listens commands from the user and then communicates with Kernal
+
+PHASE 2 - PROCESS MANAGEMENT
+Process - Program in execution
+Program - passive entity like and instruction of code in your PROCESS
+
+Process Example - 
+ls > shells read ls > shell finds the binary of ls in $PATH > finds bin/ls > shell calls fork() >
+fork() creates an child process > child process calls execve() > loads bin/ls into the child process memory > 
+kernal allocates PID , Memory and file descriptor > Program runs > Program exits
+
+$PATH - List of address where shell can look for 
+fork() - Creates an duplcate process(child) of parent process 
+execve() - Deletes the memory of the child process and then allocates the memory from the bin/ls 

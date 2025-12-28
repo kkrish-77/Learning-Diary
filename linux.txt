@@ -15,3 +15,13 @@ cd # Change directory
 cd .. # Going back to previous directory
 cd ../.. # Going back x2
 cp <source> <destination> # copy the contents and can also be used for backup of one file to other
+mv <filename> <destination> # For cut pasting the file 
+mv <old-filename> <new-filename> # For renaming the file
+head -n 5 <filename> # First 5 lines of contents in the file
+tail -n 5 <filename> # Last 5 lines of contents in the file
+sort <filename> # Sort
+sort -r <filename> # Reverse sort 
+sort <filename> | uniq # Filtering only unique values in the file and removing duplicate values
+
+Linux is not an OS but an kernal
+User > Shell > Kernal > Hardware
