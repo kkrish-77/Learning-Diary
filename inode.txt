@@ -1,0 +1,16 @@
+Everything is in inode(index node) in the Linux
+
+Inode is nothing but and data structure that contains every details of the file(Metadata) but not the file name
+It gives a magic number 
+
+Inode > A person, Hard link > Nickname of the person
+
+Inode contains - File type, Owner, Permissions, Time stamps, Data block pointers[Imp](Its address pointing to where the actual data is hidden and stored)
+
+Hard Link - 2 names pointing to the same inode
+example> file1.txt and file2.txt have data "Hello" inside of it so what kernal do is that it matches the bytes of data inside the file despite it's extension(security purpose) so now they both are having same inode number
+But the catch is that if file1.txt is deleted, it doesnt effect file2.txt
+
+Soft link - Its like an pointer or shortcut of one file created by other file 
+example> file1.txt has data "Hello" and then soft link file2.txt is an pointer to file1.txt so now both they have different inode
+But the catch is that if file1.txt is deleted.. file2.txt is also deleted

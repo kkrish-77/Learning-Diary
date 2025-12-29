@@ -35,4 +35,7 @@ Parent shell continues
 
 Everything is in inode(index node) in the Linux
 Inode is nothing but and data structure that contains every details of the file but not the file name
+Inode > A person, Hard link > Nickname of the person
+Inode contains - File type, Owner, Permissions, Time stamps, Data block pointers[Imp](Its address pointing to where the actual data is hidden and stored)
 
+Hard Link - 2 names pointing to the same inode
