@@ -32,3 +32,7 @@ Child becomes "ls"
 ls runs and exits
    ↓
 Parent shell continues
+
+Everything is in inode(index node) in the Linux
+Inode is nothing but and data structure that contains every details of the file but not the file name
+
