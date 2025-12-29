@@ -1,0 +1,19 @@
+Zombie process - Its a process that is been executed and now its waiting for its parent process to collect its exit code() and if not given any exit code it remains in the process table
+So its and kind of child process, done its job now waiting for exit codeto be collected by parent process
+
+Fix - parent process must call wait()
+
+Orphan process - If the parent process is died but the child process is still running then child becomes orphan and is then adopted by init or systemd (Process ID 1)
+
+Command to identify and remove zombie process - 
+ps -eo stat,pid,ppid,cmd | grep -e '^[Zz]'
+ps - process
+-e - tells linux to look onto every process running 
+-o - output
+stat - 
+pid - 
+ppid - 
+cmd - 
+grep - search tool
+-e - fancy pattern coming ahead
+'^[Zz]' - the secret code to find zombie process
