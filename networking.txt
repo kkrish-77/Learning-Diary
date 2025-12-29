@@ -1,0 +1,33 @@
+How internet works?
+user enters Google > Then browser checks in the cache for the dns > browser checks in the os cache > dns resolver resolves the ip address to the domain name > browser creates an TCP connection with server (3 way handshake) >
+then http sends the request to the server > then server give data packets in the plain text to client  
+
+HTTP - ➡️ It defines how requests and responses are formatted and transferred.
+Its stateless in nature and sends plain txt request to the server.
+Client sends https request > Server process the request > sends the http response to the client
+🔹 HTTP METHODS (IMPORTANT)
+Method	Purpose
+GET	        Fetch data
+POST	    Send data
+PUT	        Update data
+DELETE	    Remove data
+PATCH	    Partial update
+
+🔹 HTTP STATUS CODES
+Code	Meaning
+200	OK
+301	Moved Permanently
+400	Bad Request
+401	Unauthorized
+403	Forbidden
+404	Not Found
+500	Internal Server Error
+502	Bad Gateway
+503	Service Unavailable
+
+
+TCP - Connection oriented
+Client → SYN → Server
+Server → SYN-ACK → Client
+Client → ACK → Server
+After this the connection happens
