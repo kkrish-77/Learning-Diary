@@ -14,6 +14,7 @@ MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7348.4 avail Mem
 %Cpu(s)- Cpu percentage,  0.0 us - User process,  0.0 sy - System process ,  0.0 ni - niced process, 0.0 id - Idle process , 0.0 wa - waiting for input and output,  0.0 hi - hardware interupts,  0.0 si - software intrerupts ,  0.0 st - stolen (host usage)
 PID - process id,   USER - owner,  PR - priority,   NI- nice value,  VIRT- virtual memory,   RES- ram used,   SHR-shared memory,  S - process state,  %CPU %MEM TIME+ COMMAND 
 
+
 free -h
                total        used        free      shared  buff/cache   available
 Mem:           7.6Gi       467Mi       7.2Gi       3.5Mi       165Mi       7.2Gi
