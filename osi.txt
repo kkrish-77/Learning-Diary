@@ -1,0 +1,23 @@
+All             application
+People          presentation
+Seem            session 
+to              transport
+Need            network
+Data            data link
+processing      physical
+
+Application (HTTP)
+↓
+Presentation (TLS encryption)
+↓
+Session (Session management)
+↓
+Transport (TCP segmentation)
+↓
+Network (IP routing)
+↓
+Data Link (Ethernet framing)
+↓
+Physical (Electrical signals)
+
+

@@ -1,0 +1,26 @@
+👉 Status codes are grouped by ranges:
+
+Range	Meaning
+2xx	Success
+3xx	Redirection
+4xx	Client Error
+5xx	Server Error
+
+✅ 2xx – SUCCESS RESPONSES
+
+200 OK
+✔ Most common
+✔ request succeeded
+
+201 Created
+✔ New resource successfully created
+
+202 Accepted
+✔ Request accepted but processing not completed yet
+
+Example:
+Async background job
+File upload being processed
+
+204 No Content
+✔ Request successful but no response body

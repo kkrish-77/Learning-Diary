@@ -31,3 +31,6 @@ Client → SYN → Server
 Server → SYN-ACK → Client
 Client → ACK → Server
 After this the connection happens
+
+
+TLS - TLS (Transport Layer Security) is a cryptographic protocol that provides: Encryption, authentication, integrity
