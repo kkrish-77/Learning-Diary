@@ -34,3 +34,11 @@ Client must take additional action
 302 Found (Temporary Redirect)
 ✔ Temporary redirection
 
+❌ 4xx – CLIENT ERRORS
+
+Client sent a bad request
+
+400 Bad Request
+
+✔ Invalid request format
+✔ Missing parameters
