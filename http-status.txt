@@ -42,3 +42,8 @@ Client sent a bad request
 
 ✔ Invalid request format
 ✔ Missing parameters
+
+401 Unauthorized
+
+✔ Authentication required
+✔ Token missing or expired
