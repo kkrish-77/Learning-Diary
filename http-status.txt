@@ -24,3 +24,13 @@ File upload being processed
 
 204 No Content
 ✔ Request successful but no response body
+
+🔁 3xx – REDIRECTION
+Client must take additional action
+
+301 Moved Permanently
+✔ URL permanently changed
+
+302 Found (Temporary Redirect)
+✔ Temporary redirection
+
